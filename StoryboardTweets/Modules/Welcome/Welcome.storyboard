@@ -29,11 +29,20 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple app to make tweets using storyboard and swift" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uld-Zj-QtY">
+                                        <rect key="frame" x="50" y="372.66666666666669" width="293" height="40.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.30259590408428999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="bAA-JH-F4D" firstAttribute="centerY" secondItem="VxZ-Y0-8SJ" secondAttribute="centerY" constant="-80" id="2up-Jm-qWp"/>
+                                    <constraint firstItem="Uld-Zj-QtY" firstAttribute="leading" secondItem="VxZ-Y0-8SJ" secondAttribute="leading" constant="50" id="5lI-HA-pcP"/>
                                     <constraint firstItem="bAA-JH-F4D" firstAttribute="centerX" secondItem="VxZ-Y0-8SJ" secondAttribute="centerX" id="Pud-Ok-WQI"/>
+                                    <constraint firstAttribute="trailing" secondItem="Uld-Zj-QtY" secondAttribute="trailing" constant="50" id="TOk-Or-iM3"/>
+                                    <constraint firstItem="Uld-Zj-QtY" firstAttribute="top" secondItem="bAA-JH-F4D" secondAttribute="bottom" constant="5" id="ZGU-Ns-omL"/>
                                 </constraints>
                             </view>
                         </subviews>
