@@ -20,11 +20,19 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginBg" translatesAutoresizingMaskIntoConstraints="NO" id="Kiw-UZ-00U">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VxZ-Y0-8SJ">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.30259590408428999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="VxZ-Y0-8SJ" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="3OG-bP-IMN"/>
+                            <constraint firstItem="VxZ-Y0-8SJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="8Ow-aq-Wtv"/>
+                            <constraint firstAttribute="bottom" secondItem="VxZ-Y0-8SJ" secondAttribute="bottom" id="PlA-9Y-4hP"/>
                             <constraint firstItem="Kiw-UZ-00U" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="QYq-vn-H0x"/>
+                            <constraint firstItem="VxZ-Y0-8SJ" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Tqf-bq-427"/>
                             <constraint firstItem="Kiw-UZ-00U" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="XAZ-fD-T2f"/>
                             <constraint firstItem="Kiw-UZ-00U" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="nEY-yr-uVJ"/>
                             <constraint firstAttribute="bottom" secondItem="Kiw-UZ-00U" secondAttribute="bottom" id="u4H-Lp-hTg"/>
