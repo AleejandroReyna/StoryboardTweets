@@ -10,7 +10,6 @@
 		30DAB158F09AC9F46261F47B /* Pods_StoryboardTweets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7F891E63B0E0DE2AD3B535 /* Pods_StoryboardTweets.framework */; };
 		B51D2BD929B717F100527F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D2BD829B717F100527F5D /* AppDelegate.swift */; };
 		B51D2BDD29B717F100527F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D2BDC29B717F100527F5D /* ViewController.swift */; };
-		B51D2BE029B717F100527F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51D2BDE29B717F100527F5D /* Main.storyboard */; };
 		B51D2BE229B717F400527F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51D2BE129B717F400527F5D /* Assets.xcassets */; };
 		B51D2BE529B717F400527F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51D2BE329B717F400527F5D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -21,7 +20,6 @@
 		B51D2BD529B717F100527F5D /* StoryboardTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51D2BD829B717F100527F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B51D2BDC29B717F100527F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B51D2BDF29B717F100527F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B51D2BE129B717F400527F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51D2BE429B717F400527F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51D2BE629B717F400527F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,14 +59,29 @@
 		B51D2BD729B717F100527F5D /* StoryboardTweets */ = {
 			isa = PBXGroup;
 			children = (
-				B51D2BD829B717F100527F5D /* AppDelegate.swift */,
-				B51D2BDC29B717F100527F5D /* ViewController.swift */,
-				B51D2BDE29B717F100527F5D /* Main.storyboard */,
-				B51D2BE129B717F400527F5D /* Assets.xcassets */,
-				B51D2BE329B717F400527F5D /* LaunchScreen.storyboard */,
+				B5BE5F4C29B721240092FE51 /* Modules */,
+				B5BE5F4B29B721160092FE51 /* Commons */,
 				B51D2BE629B717F400527F5D /* Info.plist */,
 			);
 			path = StoryboardTweets;
+			sourceTree = "<group>";
+		};
+		B5BE5F4B29B721160092FE51 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				B51D2BD829B717F100527F5D /* AppDelegate.swift */,
+				B51D2BDC29B717F100527F5D /* ViewController.swift */,
+				B51D2BE129B717F400527F5D /* Assets.xcassets */,
+				B51D2BE329B717F400527F5D /* LaunchScreen.storyboard */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		B5BE5F4C29B721240092FE51 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		E997A04FA1F78598000C1A47 /* Pods */ = {
@@ -150,7 +163,6 @@
 			files = (
 				B51D2BE529B717F400527F5D /* LaunchScreen.storyboard in Resources */,
 				B51D2BE229B717F400527F5D /* Assets.xcassets in Resources */,
-				B51D2BE029B717F100527F5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B51D2BDE29B717F100527F5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B51D2BDF29B717F100527F5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B51D2BE329B717F400527F5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
