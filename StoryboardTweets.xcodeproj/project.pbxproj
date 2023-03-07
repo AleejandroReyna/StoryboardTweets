@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30DAB158F09AC9F46261F47B /* Pods_StoryboardTweets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7F891E63B0E0DE2AD3B535 /* Pods_StoryboardTweets.framework */; };
 		B51D2BD929B717F100527F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D2BD829B717F100527F5D /* AppDelegate.swift */; };
 		B51D2BDB29B717F100527F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D2BDA29B717F100527F5D /* SceneDelegate.swift */; };
 		B51D2BDD29B717F100527F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D2BDC29B717F100527F5D /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6122C0F1FEEDE28CBF8EDD87 /* Pods-StoryboardTweets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryboardTweets.release.xcconfig"; path = "Target Support Files/Pods-StoryboardTweets/Pods-StoryboardTweets.release.xcconfig"; sourceTree = "<group>"; };
+		66C194798880A9C2215CAA00 /* Pods-StoryboardTweets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryboardTweets.debug.xcconfig"; path = "Target Support Files/Pods-StoryboardTweets/Pods-StoryboardTweets.debug.xcconfig"; sourceTree = "<group>"; };
 		B51D2BD529B717F100527F5D /* StoryboardTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51D2BD829B717F100527F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B51D2BDA29B717F100527F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B51D2BE129B717F400527F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51D2BE429B717F400527F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51D2BE629B717F400527F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7F891E63B0E0DE2AD3B535 /* Pods_StoryboardTweets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryboardTweets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DAB158F09AC9F46261F47B /* Pods_StoryboardTweets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				B51D2BD729B717F100527F5D /* StoryboardTweets */,
 				B51D2BD629B717F100527F5D /* Products */,
+				E997A04FA1F78598000C1A47 /* Pods */,
+				E9E775088F5A4E299F2707CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = StoryboardTweets;
 			sourceTree = "<group>";
 		};
+		E997A04FA1F78598000C1A47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66C194798880A9C2215CAA00 /* Pods-StoryboardTweets.debug.xcconfig */,
+				6122C0F1FEEDE28CBF8EDD87 /* Pods-StoryboardTweets.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9E775088F5A4E299F2707CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F891E63B0E0DE2AD3B535 /* Pods_StoryboardTweets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B51D2BE929B717F400527F5D /* Build configuration list for PBXNativeTarget "StoryboardTweets" */;
 			buildPhases = (
+				408A299B1BAAC6C4E0C6C38D /* [CP] Check Pods Manifest.lock */,
 				B51D2BD129B717F100527F5D /* Sources */,
 				B51D2BD229B717F100527F5D /* Frameworks */,
 				B51D2BD329B717F100527F5D /* Resources */,
+				92879D0FD1671B4C1D8CDEC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		408A299B1BAAC6C4E0C6C38D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoryboardTweets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92879D0FD1671B4C1D8CDEC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryboardTweets/Pods-StoryboardTweets-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoryboardTweets/Pods-StoryboardTweets-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoryboardTweets/Pods-StoryboardTweets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B51D2BD129B717F100527F5D /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		B51D2BEA29B717F400527F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C194798880A9C2215CAA00 /* Pods-StoryboardTweets.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +380,7 @@
 		};
 		B51D2BEB29B717F400527F5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6122C0F1FEEDE28CBF8EDD87 /* Pods-StoryboardTweets.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
