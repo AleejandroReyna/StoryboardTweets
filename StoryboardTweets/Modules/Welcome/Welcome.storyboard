@@ -99,7 +99,7 @@
         <!--Register-->
         <scene sceneID="3OB-z0-pxX">
             <objects>
-                <viewController id="wxN-50-cWm" sceneMemberID="viewController">
+                <viewController id="wxN-50-cWm" customClass="RegisterViewController" customModule="StoryboardTweets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Dy-UO-pZV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
