@@ -172,7 +172,7 @@
         <!--Login-->
         <scene sceneID="qfG-tX-Znn">
             <objects>
-                <viewController id="Nnx-C3-K1f" sceneMemberID="viewController">
+                <viewController id="Nnx-C3-K1f" customClass="LoginViewController" customModule="StoryboardTweets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u3W-ow-Vcg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
