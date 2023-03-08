@@ -6,24 +6,40 @@
 //
 
 import UIKit
+import NotificationBannerSwift
 
 class LoginViewController: UIViewController {
 
+    // MARK: - Outlets
+    @IBOutlet weak var emailTextField : UITextField!
+    @IBOutlet weak var passwordTextField : UITextField!
+    @IBOutlet weak var loginButton : UIButton!
+    
+    // MARK: - Actions
+    @IBAction func loginButtonAction(_ sender: Any) {
+        performLoading()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - Private Methods
+    private func performLoading() {
+        guard let email = self.emailTextField.text, !email.isEmpty else {
+            NotificationBanner(title: "Error", subtitle: "You must specify an email", style: .warning).show()
+            return
+        }
+        
+        guard let password = self.passwordTextField.text, !password.isEmpty else {
+            NotificationBanner(title: "Error", subtitle: "You must specify a password", style: .warning).show()
+            return
+        }
+        
+        if !email.isEmpty, !password.isEmpty {
+            NotificationBanner(title: "Success", subtitle: "You will be redirected", style: .success).show()
+            return
+        }
     }
-    */
-
 }

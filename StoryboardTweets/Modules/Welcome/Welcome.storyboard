@@ -198,6 +198,9 @@
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="24"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginButtonAction:" destination="Nnx-C3-K1f" eventType="touchUpInside" id="0Ew-A4-EBr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -224,6 +227,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="apK-Lm-pQM"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="3o1-e8-M8Y" id="gOO-Yh-ibh"/>
+                        <outlet property="loginButton" destination="xcy-Yw-9WW" id="znN-mZ-bJy"/>
+                        <outlet property="passwordTextField" destination="769-RW-sLd" id="1va-z6-XJB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0s2-W4-5eX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
