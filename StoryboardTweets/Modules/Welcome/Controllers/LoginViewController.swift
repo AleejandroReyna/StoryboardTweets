@@ -17,7 +17,8 @@ class LoginViewController: UIViewController {
     
     // MARK: - Actions
     @IBAction func loginButtonAction(_ sender: Any) {
-        performLoading()
+        view.endEditing(true)
+        performLogin()
     }
     
     override func viewDidLoad() {
@@ -26,7 +27,7 @@ class LoginViewController: UIViewController {
     }
     
     // MARK: - Private Methods
-    private func performLoading() {
+    private func performLogin() {
         guard let email = self.emailTextField.text, !email.isEmpty else {
             NotificationBanner(title: "Error", subtitle: "You must specify an email", style: .warning).show()
             return

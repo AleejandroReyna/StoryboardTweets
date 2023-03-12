@@ -134,6 +134,9 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="24"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="registerButtonAction" destination="wxN-50-cWm" eventType="touchUpInside" id="wII-3N-07K"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -164,6 +167,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Register" id="qVp-ix-8eR"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="NJ5-gE-aGs" id="cqa-OF-QNj"/>
+                        <outlet property="namesTextField" destination="7mD-mf-B7f" id="IOk-Ck-QLP"/>
+                        <outlet property="passwordTextField" destination="Kjj-X4-WMW" id="0BF-7g-usF"/>
+                        <outlet property="registerButton" destination="9I2-bx-1NX" id="YRw-pK-HJZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bKj-x6-iK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
