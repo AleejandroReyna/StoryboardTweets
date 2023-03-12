@@ -12,6 +12,7 @@
 		B51D2BDD29B717F100527F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D2BDC29B717F100527F5D /* ViewController.swift */; };
 		B51D2BE229B717F400527F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51D2BE129B717F400527F5D /* Assets.xcassets */; };
 		B51D2BE529B717F400527F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51D2BE329B717F400527F5D /* LaunchScreen.storyboard */; };
+		B52A369429BE699F002967FC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52A369329BE699F002967FC /* Home.storyboard */; };
 		B52ED55229B85CDF000A0809 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52ED55129B85CDF000A0809 /* WelcomeViewController.swift */; };
 		B52ED55429B85CFC000A0809 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52ED55329B85CFC000A0809 /* LoginViewController.swift */; };
 		B52ED55629B85D18000A0809 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52ED55529B85D18000A0809 /* RegisterViewController.swift */; };
@@ -27,6 +28,7 @@
 		B51D2BE129B717F400527F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51D2BE429B717F400527F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51D2BE629B717F400527F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52A369329BE699F002967FC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B52ED55129B85CDF000A0809 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B52ED55329B85CFC000A0809 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B52ED55529B85D18000A0809 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 			path = StoryboardTweets;
 			sourceTree = "<group>";
 		};
+		B52A369229BE697A002967FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B52A369329BE699F002967FC /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		B52ED55029B85CB0000A0809 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		B5BE5F4C29B721240092FE51 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B52A369229BE697A002967FC /* Home */,
 				B5BE5F4D29B722280092FE51 /* Welcome */,
 			);
 			path = Modules;
@@ -192,6 +203,7 @@
 				B51D2BE529B717F400527F5D /* LaunchScreen.storyboard in Resources */,
 				B51D2BE229B717F400527F5D /* Assets.xcassets in Resources */,
 				B5BE5F4F29B722570092FE51 /* Welcome.storyboard in Resources */,
+				B52A369429BE699F002967FC /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
