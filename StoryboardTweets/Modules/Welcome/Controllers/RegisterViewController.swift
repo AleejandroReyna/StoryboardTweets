@@ -48,6 +48,7 @@ class RegisterViewController: UIViewController {
         
         if !email.isEmpty, !names.isEmpty, !password.isEmpty {
             NotificationBanner(title: "Success", subtitle: "You will be redirected", style: .success).show()
+            performSegue(withIdentifier: "showHome", sender: nil)
             return
         }
     }

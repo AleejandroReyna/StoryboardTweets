@@ -40,6 +40,7 @@ class LoginViewController: UIViewController {
         
         if !email.isEmpty, !password.isEmpty {
             NotificationBanner(title: "Success", subtitle: "You will be redirected", style: .success).show()
+            performSegue(withIdentifier: "showHome", sender: nil)
             return
         }
     }

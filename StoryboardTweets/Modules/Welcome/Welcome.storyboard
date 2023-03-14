@@ -172,6 +172,7 @@
                         <outlet property="namesTextField" destination="7mD-mf-B7f" id="IOk-Ck-QLP"/>
                         <outlet property="passwordTextField" destination="Kjj-X4-WMW" id="0BF-7g-usF"/>
                         <outlet property="registerButton" destination="9I2-bx-1NX" id="YRw-pK-HJZ"/>
+                        <segue destination="PcJ-Zo-aTW" kind="presentation" identifier="showHome" modalPresentationStyle="fullScreen" id="YYe-mo-beA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bKj-x6-iK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -240,11 +241,20 @@
                         <outlet property="emailTextField" destination="3o1-e8-M8Y" id="gOO-Yh-ibh"/>
                         <outlet property="loginButton" destination="xcy-Yw-9WW" id="znN-mZ-bJy"/>
                         <outlet property="passwordTextField" destination="769-RW-sLd" id="1va-z6-XJB"/>
+                        <segue destination="PcJ-Zo-aTW" kind="presentation" identifier="showHome" modalPresentationStyle="fullScreen" id="7pY-Yt-oLI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0s2-W4-5eX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2150" y="-408"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="ypd-6g-i1A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="PcJ-Zo-aTW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKd-Ql-NdR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2851" y="14"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eHs-92-fhw">
@@ -265,6 +275,9 @@
             <point key="canvasLocation" x="101.5267175572519" y="-2.1126760563380285"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="7pY-Yt-oLI"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="bottomImage" width="351.5" height="123"/>
         <image name="loginBg" width="640" height="425"/>
