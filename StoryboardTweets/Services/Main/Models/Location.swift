@@ -6,6 +6,6 @@
 //
 
 struct Location : Codable {
-    let latitude : Float
-    let longitude : Float
+    let latitude : Double
+    let longitude : Double
 }
